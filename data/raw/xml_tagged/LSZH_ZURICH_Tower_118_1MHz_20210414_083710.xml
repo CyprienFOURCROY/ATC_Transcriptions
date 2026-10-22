@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.16</start>
+		<end>4.88</end>
+		<speaker>B</speaker>
+		<speaker_label>SWR197</speaker_label>
+		<text>[#unnamed]Tower[/#unnamed] [#unnamed] [NE-German] guten morgen [/NE][/#unnamed] [#callsign]Swiss One Nine Seven heavy[/#callsign] [#unnamed]RNP[/#unnamed] [#value]one four[/#value] [#command]established[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>5.32</start>
+		<end>15.19</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Swiss One Nine Seven[/#callsign] [#unnamed]Tower[/#unnamed] [#unnamed] [NE-German]guten morgen[/NE][/#unnamed] [#unnamed]wind[/#unnamed] [#value]zero eight zero degrees[/#value] [#value]one two knots[/#value] [#value]gusting one nine[/#value] [#value]runway one four[/#value]   [#command]cleared to land[/#command] [#command] vacate[/#command] [#value]hotel two[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

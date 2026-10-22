@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.16</start>
+		<end>2.5</end>
+		<speaker>B</speaker>
+		<speaker_label>QJE1504</speaker_label>
+		<text>[#command]cleared to land[/#command] [#value]runway one six five[/#value] [#callsign]Qjet Fifteen Zero Four[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.12</start>
+		<end>5.75</end>
+		<speaker>D</speaker>
+		<speaker_label>UNK-1</speaker_label>
+		<text>[#callsign]Hotel Lima Hotel [/#callsign] [#unnamed]wind[/#unnamed]    [#value]zero one zero degrees[/#value]   [#value]one zero knots[/#value]   [#value]runway one zero[/#value] [#command]cleared to land[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

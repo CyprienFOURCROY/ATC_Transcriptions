@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.28</start>
+		<end>4.63</end>
+		<speaker>B</speaker>
+		<speaker_label>CAL055</speaker_label>
+		<text>[#unnamed]Sydney tower good evening[/#unnamed] [#callsign]Dynasty Zero Five Five[/#callsign]  [#value]seven miles[/#value]       [#value]runway zero (s-) runway three four left[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

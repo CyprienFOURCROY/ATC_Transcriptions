@@ -1,0 +1,60 @@
+=== whisper prompt=none  16:52:01
+Wrote /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/transcripts/whisper-turbo/prompts.json: {'recordings': 20, 'with_prompt': 0, 'max_tokens': 223}
+Loading /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/models/whisper-turbo (cpu, int8, 10 threads)...
+Done: 0 new, 27 total in /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/transcripts/whisper-turbo/hyps.jsonl
+=== whisper prompt=atc  16:52:03
+Wrote /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/transcripts/whisper-turbo-atc/prompts.json: {'recordings': 20, 'with_prompt': 20, 'max_tokens': 223}
+Loading /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/models/whisper-turbo (cpu, int8, 10 threads)...
+[1/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_091112    7.4s audio in  5.1s  (RTF 0.69)  Oscar Kilo Papa Mike Bravo, descend flight level one hundred, Oscar Ki
+[2/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_120512   11.4s audio in  5.1s  (RTF 0.55)  Oscar Kilo Kilo Echo Alpha radar identified. Clown flight level one hu
+[3/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_121325    6.0s audio in  4.8s  (RTF 0.61)  Reiner 73 of the hotel, turn left heading three six zero. Reiner 73 of
+[4/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_130407    7.1s audio in  5.0s  (RTF 0.63)  Oscar Kilo, Kilo, Info November, Prof. Darek, Baltum.
+[5/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_140929   12.2s audio in  5.5s  (RTF 0.58)  Euro Wings seven alpha Bravo, descend right heading two one zero, clea
+[6/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_161808   15.4s audio in  5.8s  (RTF 0.53)  Oscar Mepa pattern, right heading zero two zero, cleared as approach r
+[7/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_174652   16.0s audio in  6.3s  (RTF 0.50)  Good evening Lufthansa eight hotel Romeo, passing two thousand five hu
+[8/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_213836   10.9s audio in  4.8s  (RTF 0.49)  Sky draw two eight two seven and there is class aquar space below flig
+[9/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_105217    7.7s audio in  5.4s  (RTF 0.51)  Speedbird eight five five, radar identified, flight flight level one s
+[10/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_105855    8.9s audio in  5.4s  (RTF 0.52)  Skytroll three five, Juliet. Ten right heading one eight zero, vectori
+[11/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_114352    8.8s audio in  5.3s  (RTF 0.52)  Oscar Kilo Papa Romeo Mike, turn right heading zero six zero. Zero six
+[12/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_130708    9.0s audio in  5.2s  (RTF 0.53)  Air flight one zero eight zero, stand by, now descend to, uh, descend 
+[13/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_142311    7.2s audio in  6.3s  (RTF 0.55)  Réna, NNH, Quebec, descend right heading zero, NNH zero.
+[14/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_144339   14.4s audio in 34.3s  (RTF 0.73)  Radar double dot one, Sky level four three two papa Orleans
+[15/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_145941   13.8s audio in  5.6s  (RTF 0.70)  Oscar Kilo triple hotel, please confirm one more holding. Oscar Kilo t
+[16/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_161349   11.5s audio in  6.1s  (RTF 0.69)  Radar CC one Delta Zulu established.
+[17/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_204323   10.1s audio in  5.5s  (RTF 0.68)  UPS 295, established. UPS 295, contact tower, frequency one three four
+[18/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_205056    7.5s audio in  5.6s  (RTF 0.69)  Kilo 73. Whiskey, my team presiding for vectoring, I'll approach runwa
+[19/20] LKPR_RUZYNE_Radar_120_520MHz_20201027_121714    9.3s audio in  5.8s  (RTF 0.68)  Oscar Kilo Uniform Tango Charlie, release from frequency, flying infor
+[20/20] LKPR_RUZYNE_Radar_120_520MHz_20201027_125731    9.5s audio in  5.5s  (RTF 0.68)  One one eight decimal, six by zero. Let's see it, bye bye.
+Done: 20 new, 20 total in /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/transcripts/whisper-turbo-atc/hyps.jsonl
+=== whisper prompt=callsigns  16:54:23
+Wrote /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/transcripts/whisper-turbo-callsigns/prompts.json: {'recordings': 20, 'with_prompt': 20, 'max_tokens': 223, 'all_callsigns_fit': 5, 'no_callsigns_available': 3}
+Loading /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/models/whisper-turbo (cpu, int8, 10 threads)...
+[1/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_091112    7.4s audio in 15.2s  (RTF 2.07)  Oscar Kilo, Oskar Kilo, Papa Mike Bravo, Riesh, Svazla One Hundred.
+[2/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_120512   11.4s audio in  6.4s  (RTF 1.15)  Oscar Kilo Kilo Kilo Echo Alpha, radar identified. Clown flight level 
+[3/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_121325    6.0s audio in 38.4s  (RTF 2.43)  Reiner Seven Seven, Triall Fa Hotel, Tronelacht heading three six zero
+[4/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_130407    7.1s audio in  6.3s  (RTF 2.08)  Oscar Kilo Kilo Bravo, Prosím, Dárek Balto.
+[5/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_140929   12.2s audio in  7.0s  (RTF 1.67)  Eurowings Seven Alfa Bravo, Tenaride Heading Two One Zero, cleared ILS
+[6/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_161808   15.4s audio in  7.0s  (RTF 1.35)  Scrum Mepa Patton, right heading zero two zero, cleared as approach ru
+[7/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_174652   16.0s audio in  8.1s  (RTF 1.17)  Alright, good evening, Lufthansa Eight Hotel Romeo, passing two thousa
+[8/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_213836   10.9s audio in  6.0s  (RTF 1.09)  Sky draw two eight two seven and there is class aquar space below flig
+[9/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_105217    7.7s audio in  6.1s  (RTF 1.07)  Speedbird Eight Five Five Five, Ryanair One Six Zero, Speedbird Eight 
+[10/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_105855    8.9s audio in 15.4s  (RTF 1.13)  Skytroll Three Five Joulet, Tenair Heading One Eight Zero, Vectoring f
+[11/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_114352    8.8s audio in  6.3s  (RTF 1.09)  Oscar Kilo Papa, Romero Mike, turn right heading zero six zero.
+[12/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_130708    9.0s audio in  6.1s  (RTF 1.06)  Air France One Zero Eight, Zulu, Standby, now Descent to... Descent fl
+[13/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_142311    7.2s audio in  6.9s  (RTF 1.06)  Réna, NNH, Quebec, descend right heading zero, NNH zero.
+[14/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_144339   14.4s audio in 39.7s  (RTF 1.23)  Radar, Qatari Eight, SCD432, PAPA, Sink, Nineteen Hundred, QNH Five Th
+[15/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_145941   13.8s audio in  6.9s  (RTF 1.16)  Oscar Kilo triple hotel, please confirm one more holding. Oscar Kilo t
+[16/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_161349   11.5s audio in  6.9s  (RTF 1.13)  Radar CC One Delta Zulu, Established.
+[17/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_204323   10.1s audio in  6.2s  (RTF 1.10)  Ups Two Nine Five, established. Ups Two Nine Five, contact tower, freq
+[18/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_205056    7.5s audio in  6.3s  (RTF 1.09)  Kilo Seven Three Whiskey, my team presiding for vectoring, I'll approa
+[19/20] LKPR_RUZYNE_Radar_120_520MHz_20201027_121714    9.3s audio in  6.5s  (RTF 1.07)  Oscar Kilo Yankee Uniform Tango Charlie, Release from Frequency, Flyin
+[20/20] LKPR_RUZYNE_Radar_120_520MHz_20201027_125731    9.5s audio in  6.4s  (RTF 1.05)  One one one eight decimal, uh, Six Five Zero. Let's see it, bye-bye.
+Done: 20 new, 20 total in /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/transcripts/whisper-turbo-callsigns/hyps.jsonl
+
+system                       files    WER   sub   del   ins callsign    LKPR
+whisper-turbo                   20  40.6% 23.2%  3.0% 14.3%    21.1%   40.6%
+whisper-turbo-atc               20  27.2% 14.7%  5.0%  7.6%    44.7%   27.2%
+whisper-turbo-callsigns         20  36.4% 19.6%  5.1% 11.6%    28.9%   36.4%
+atco2-cnet                      20  20.9% 12.2%  4.0%  4.8%    60.5%   20.9%
+
+Details: /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/eval/summary.csv and /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/eval/<system>_per_file.csv

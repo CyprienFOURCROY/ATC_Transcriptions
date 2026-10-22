@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.37</start>
+		<end>6.76</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#callsign]Hotel Bravo Juliett[/#callsign] [#command]leave out on[/#command] [#value]route whiskey[/#value] [#unnamed]wind[/#unnamed]    [#value]zero three zero degrees[/#value]   [#value]one zero knots[/#value]   [#value]runway three two[/#value] [#command]cleared for takeoff[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>3.76</end>
+		<speaker>B</speaker>
+		<speaker_label>JST520</speaker_label>
+		<text>[#value]runway three four left[/#value]   [#command]cleared to land[/#command] [#command] vacate[/#command] [#value]bravo three[/#value] [#callsign]Jetstar Five Twenty[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.13</start>
+		<end>2.27</end>
+		<speaker>B</speaker>
+		<speaker_label>JFA15B</speaker_label>
+		<text>[hes] it was for [#callsign]Mosquito One Five Bravo[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>2.57</start>
+		<end>4.92</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>yes [#callsign]Mosquito One Five Bravo[/#callsign] [#unnamed]are you[/#unnamed] [#command]turning[/#command] [#value]base now[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>5.34</start>
+		<end>7.06</end>
+		<speaker>B</speaker>
+		<speaker_label>JFA15B</speaker_label>
+		<text>[#command]turning[/#command] [#value]base now [/#value] [#callsign]Mosquito One Five Bravo[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>7.44</start>
+		<end>11.98</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>Sierra(Sie-) [#callsign]Sierra Golf Kilo [/#callsign] [#command]stop[/#command] [#unnamed]please[/#unnamed] [#command]hold position[/#command] [#unnamed]sorry sir[/#unnamed] [#command]hold position call you back[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

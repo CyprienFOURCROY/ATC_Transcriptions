@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.11</start>
+		<end>3.11</end>
+		<speaker>B</speaker>
+		<speaker_label>HGB</speaker_label>
+		<text>[#callsign]Hotel Golf Bravo[/#callsign]   [#value]is echo two[/#value]      [#value]at three thousand three hundred feet[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>3.31</start>
+		<end>5.16</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Golf Bravo [/#callsign] [#command]straight in[/#command] [#value]two five number one[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>5.16</start>
+		<end>7.39</end>
+		<speaker>B</speaker>
+		<speaker_label>HGB</speaker_label>
+		<text>[#value]number one[/#value] [noise]   [#callsign]Golf Bravo[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

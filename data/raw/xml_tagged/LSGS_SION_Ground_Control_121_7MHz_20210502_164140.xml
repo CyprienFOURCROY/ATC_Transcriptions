@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.39</start>
+		<end>4.04</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>[#callsign]Papa Mike [/#callsign] [#command]vacate to the left[/#command] and then [#command]straight ahead[/#command] [#value]until further advised[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>4.72</start>
+		<end>7.87</end>
+		<speaker>D</speaker>
+		<speaker_label>UNK-1</speaker_label>
+		<text>[#command]the left[/#command] and then [#command]straight ahead[/#command] [#callsign] Hotel Papa Mike[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

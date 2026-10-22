@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.15</start>
+		<end>7.14</end>
+		<speaker>B</speaker>
+		<speaker_label></speaker_label>
+		<text>[#callsign]Hotel Bravo Kilo Charlie Juliett[/#callsign]   [#command] echo[/#command]          [#value]one five thousand and eight four thousand eight hundred feet[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>7.98</start>
+		<end>10.07</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>[#unnamed]hello[/#unnamed] [#callsign]Charlie Juliett[/#callsign] [#command]next report[/#command] [#value]echo two[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

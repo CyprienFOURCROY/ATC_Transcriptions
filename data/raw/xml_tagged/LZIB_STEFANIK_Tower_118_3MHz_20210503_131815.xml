@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.09</start>
+		<end>3.73</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Delta Bravo Bravo[/#callsign] [#command]line up[/#command] [#value]runway three one[/#value] [#command]report ready for departure[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>3.91</start>
+		<end>8.02</end>
+		<speaker>B</speaker>
+		<speaker_label>DBB</speaker_label>
+		<text>[#callsign]Delta Bravo Bravo[/#callsign] [#command]lining up[/#command] [#value]runway three one[/#value] we are [#command]ready for departure[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>8.05</start>
+		<end>8.52</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#unnamed]roger[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

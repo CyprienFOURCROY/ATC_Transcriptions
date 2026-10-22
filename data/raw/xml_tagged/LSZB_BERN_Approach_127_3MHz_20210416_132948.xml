@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>3.34</end>
+		<speaker>B</speaker>
+		<speaker_label>HGY</speaker_label>
+		<text>[#callsign]Hotel Golf Yankee[/#callsign] [#unnamed]we appreciate the shortcut[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>3.42</start>
+		<end>5.87</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#callsign]Hotel Golf Yankee[/#callsign] [#unnamed]roger report your program[/#unnamed] [#value]in Bern[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

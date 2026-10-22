@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>3.96</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO radar</speaker_label>
+		<text>[#callsign]Oscar Kilo Papa Romeo Mike[/#callsign] [#command]turn right heading[/#command] [#value]zero six zero[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>3.96</start>
+		<end>8.16</end>
+		<speaker>B</speaker>
+		<speaker_label>OKPRM</speaker_label>
+		<text>[#value]zero six zero[/#value] [#command]right turn[/#command] [#callsign]Oscar Papa Romeo Mike[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

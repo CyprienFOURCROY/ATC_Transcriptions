@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ATCO2 Viewer</title>
+<style>
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --line: #e3e6ea; --text: #1d232b; --muted: #6b7480;
+  --accent: #2563eb; --accent-soft: #e8efff; --active: #fff7dc;
+  --callsign: #2563eb; --command: #c2410c; --value: #15803d; --unnamed: #7c3aed; --other: #6b7480;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #12151a; --panel: #1a1e25; --line: #2b313a; --text: #e6e9ee; --muted: #8b95a3;
+    --accent: #6c9cff; --accent-soft: #1f2a44; --active: #2e2a1a;
+    --callsign: #7aa7ff; --command: #fb923c; --value: #4ade80; --unnamed: #c4a5ff; }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--bg); color: var(--text); font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; display: grid; grid-template-rows: auto 1fr; }
+header { display: flex; align-items: center; gap: 24px; padding: 12px 20px; background: var(--panel); border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+header h1 { font-size: 16px; margin: 0; white-space: nowrap; }
+.stats { display: flex; gap: 22px; flex-wrap: wrap; }
+.stat b { display: block; font-size: 18px; font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-size: 12px; }
+main { display: grid; grid-template-columns: 380px 1fr; min-height: 0; }
+aside { border-right: 1px solid var(--line); background: var(--panel); display: flex; flex-direction: column; min-height: 0; }
+.filters { padding: 12px; display: grid; gap: 8px; border-bottom: 1px solid var(--line); }
+input, select { width: 100%; padding: 7px 9px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--text); font: inherit; }
+.count { color: var(--muted); font-size: 12px; }
+#list { overflow-y: auto; flex: 1; }
+.item { padding: 9px 12px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.item:hover { background: var(--bg); }
+.item.sel { background: var(--accent-soft); box-shadow: inset 3px 0 var(--accent); }
+.item .top { display: flex; justify-content: space-between; gap: 8px; font-weight: 600; font-size: 13px; }
+.item .meta { color: var(--muted); font-size: 12px; }
+.item .pv { color: var(--muted); font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+section#detail { overflow-y: auto; padding: 20px 24px; min-height: 0; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+.card h2 { font-size: 15px; margin: 0 0 4px; }
+.card h3 { font-size: 13px; margin: 0 0 10px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .04em; }
+.sub { color: var(--muted); font-size: 13px; margin-bottom: 12px; }
+audio { width: 100%; }
+.controls { display: flex; gap: 8px; align-items: center; margin-top: 8px; flex-wrap: wrap; }
+button { border: 1px solid var(--line); background: var(--bg); color: var(--text); padding: 5px 10px; border-radius: 6px; cursor: pointer; font: inherit; font-size: 13px; }
+button:hover { border-color: var(--accent); }
+button.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+.timeline { position: relative; height: 28px; background: var(--bg); border-radius: 6px; margin-top: 12px; cursor: pointer; overflow: hidden; }
+.timeline .seg { position: absolute; top: 4px; bottom: 4px; border-radius: 3px; opacity: .75; }
+.timeline .head { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--text); pointer-events: none; }
+.seg-row { display: grid; grid-template-columns: 92px 1fr; gap: 12px; padding: 10px; border-radius: 8px; cursor: pointer; border: 1px solid transparent; }
+.seg-row:hover { border-color: var(--line); }
+.seg-row.active { background: var(--active); }
+.seg-row .who { font-size: 12px; }
+.seg-row .who b { display: block; font-size: 13px; }
+.seg-row .who span { color: var(--muted); font-variant-numeric: tabular-nums; }
+.seg-row .txt { font-size: 15px; }
+.atco b { color: var(--accent); }
+.t-callsign { color: var(--callsign); font-weight: 600; }
+.t-command { color: var(--command); font-weight: 600; }
+.t-value { color: var(--value); font-weight: 600; }
+.t-unnamed { color: var(--unnamed); }
+.t-other { color: var(--other); font-style: italic; }
+.notags .txt span { color: inherit !important; font-weight: inherit !important; font-style: normal !important; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+.asr { font-size: 14px; line-height: 1.9; }
+.asr span { padding: 1px 2px; border-radius: 3px; cursor: pointer; }
+.asr span.cur { outline: 2px solid var(--accent); }
+.asr span.low { text-decoration: underline wavy #dc2626; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.kv { display: grid; grid-template-columns: 110px 1fr; gap: 4px 10px; font-size: 13px; }
+.kv dt { color: var(--muted); }
+.kv dd { margin: 0; word-break: break-word; }
+.cs { font-size: 12px; max-height: 220px; overflow-y: auto; columns: 2; }
+.cs div { break-inside: avoid; }
+.cs code { color: var(--callsign); }
+.cs .hit { background: var(--active); }
+.bars .row { display: grid; grid-template-columns: 130px 1fr 70px; gap: 8px; align-items: center; font-size: 12px; margin: 4px 0; }
+.bars .bar { height: 10px; background: var(--accent); border-radius: 3px; }
+.bars .n { color: var(--muted); text-align: right; font-variant-numeric: tabular-nums; }
+.empty { color: var(--muted); padding: 40px; text-align: center; }
+kbd { border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; font-size: 11px; }
+@media (max-width: 900px) {
+  main { grid-template-columns: 1fr; grid-template-rows: 45vh 1fr; }
+  aside { border-right: 0; border-bottom: 1px solid var(--line); }
+  .grid2 { grid-template-columns: 1fr; }
+  section#detail { padding: 16px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>ATCO2 · ATC transcripts</h1>
+  <div class="stats" id="stats"></div>
+</header>
+<main>
+  <aside>
+    <div class="filters">
+      <input id="q" type="search" placeholder="Search transcripts, e.g. cleared to land">
+      <div style="display:flex; gap:8px">
+        <select id="airport"><option value="">All airports</option></select>
+        <select id="channel"><option value="">All channels</option></select>
+      </div>
+      <div class="count" id="count"></div>
+    </div>
+    <div id="list"></div>
+  </aside>
+  <section id="detail"><div id="overview"></div><div id="file"></div></section>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = t => `${Math.floor(t / 60)}:${(t % 60).toFixed(1).padStart(4, '0')}`;
+const TAGS = ['callsign', 'command', 'value', 'unnamed'];
+const tagClass = t => t ? (TAGS.includes(t) ? 't-' + t : 't-other') : '';
+const speakerColor = s => ({A:'#2563eb', B:'#15803d', C:'#c2410c', D:'#7c3aed', E:'#db2777', G:'#0891b2', H:'#a16207'}[s] || '#6b7480');
+
+let files = [], shown = [], cur = null, detail = null, showTags = true, autoScroll = true;
+
+async function init() {
+  const [s, f] = await Promise.all([fetch('/api/summary').then(r => r.json()), fetch('/api/files').then(r => r.json())]);
+  files = f;
+  $('#stats').innerHTML = [
+    [s.n_files, 'recordings'], [(s.total_duration / 60).toFixed(1) + ' min', 'audio'],
+    [s.n_segments, 'segments'], [s.n_words.toLocaleString(), 'words'], [s.airports.length, 'airports'],
+  ].map(([v, l]) => `<div class="stat"><b>${v}</b><span>${l}</span></div>`).join('');
+  const max = Math.max(...s.airports.map(a => a.duration));
+  const tmax = Math.max(...Object.values(s.tags));
+  $('#overview').innerHTML = `<div class="card grid2">
+    <div><h3>Audio per airport</h3><div class="bars">${s.airports.map(a =>
+      `<div class="row"><span>${esc(a.airport)}</span><div class="bar" style="width:${a.duration / max * 100}%"></div><span class="n">${(a.duration / 60).toFixed(1)} min · ${a.files}</span></div>`).join('')}</div></div>
+    <div><h3>Tagged entities</h3><div class="bars">${Object.entries(s.tags).map(([t, n]) =>
+      `<div class="row"><span class="${tagClass(t)}">${t}</span><div class="bar" style="width:${n / tmax * 100}%;background:var(--${TAGS.includes(t) ? t : 'other'})"></div><span class="n">${n}</span></div>`).join('')}</div>
+      <p class="sub" style="margin-top:14px">Pick a recording on the left. <kbd>Space</kbd> play/pause · <kbd>↑</kbd><kbd>↓</kbd> previous/next recording · <kbd>←</kbd><kbd>→</kbd> previous/next segment</p></div>
+  </div>`;
+  for (const a of [...new Set(files.map(f => f.airport))].sort()) $('#airport').add(new Option(a, a));
+  fillChannels();
+  ['input', 'change'].forEach(e => { $('#q').addEventListener(e, render); });
+  $('#airport').addEventListener('change', () => { fillChannels(); render(); });
+  $('#channel').addEventListener('change', render);
+  render();
+  const hash = decodeURIComponent(location.hash.slice(1));
+  if (hash && files.some(f => f.id === hash)) select(hash);
+}
+
+function fillChannels() {
+  const a = $('#airport').value, prev = $('#channel').value;
+  const chans = [...new Set(files.filter(f => !a || f.airport === a).map(f => f.channel))].sort();
+  $('#channel').innerHTML = '<option value="">All channels</option>' + chans.map(c => `<option${c === prev ? ' selected' : ''}>${esc(c)}</option>`).join('');
+}
+
+function render() {
+  const q = $('#q').value.toLowerCase().trim(), a = $('#airport').value, c = $('#channel').value;
+  shown = files.filter(f => (!a || f.airport === a) && (!c || f.channel === c) && (!q || f.preview.toLowerCase().includes(q) || f.id.toLowerCase().includes(q)));
+  $('#count').textContent = `${shown.length} of ${files.length} recordings · ${(shown.reduce((s, f) => s + f.duration, 0) / 60).toFixed(1)} min`;
+  $('#list').innerHTML = shown.map(f => `<div class="item${f.id === cur ? ' sel' : ''}" data-id="${esc(f.id)}">
+    <div class="top"><span>${esc(f.airport)} · ${esc(f.channel)}</span><span>${f.duration.toFixed(1)}s</span></div>
+    <div class="meta">${esc(f.datetime)} UTC · ${esc(f.frequency)} · ${f.n_segments} seg</div>
+    <div class="pv">${esc(f.preview)}</div></div>`).join('');
+}
+
+$('#list').addEventListener('click', e => { const it = e.target.closest('.item'); if (it) select(it.dataset.id); });
+
+async function select(id, autoplay = false) {
+  cur = id;
+  history.replaceState(null, '', '#' + encodeURIComponent(id));
+  document.querySelectorAll('.item').forEach(el => el.classList.toggle('sel', el.dataset.id === id));
+  document.querySelector(`.item[data-id="${CSS.escape(id)}"]`)?.scrollIntoView({block: 'nearest'});
+  const meta = files.find(f => f.id === id);
+  detail = await fetch('/api/file/' + encodeURIComponent(id)).then(r => r.json());
+  if (cur !== id) return;
+  $('#overview').style.display = 'none';
+  const said = detail.segments.map(s => s.text.toLowerCase()).join(' ');
+  $('#file').innerHTML = `
+    <div class="card">
+      <h2>${esc(meta.airport)} · ${esc(meta.channel)} <span style="color:var(--muted);font-weight:400">${esc(meta.frequency)}</span></h2>
+      <div class="sub">${esc(meta.datetime)} UTC · ${meta.duration.toFixed(2)} s · <code>${esc(id)}</code></div>
+      <audio id="audio" controls preload="auto" src="/audio/${encodeURIComponent(id)}.wav"></audio>
+      <div class="timeline" id="tl">${detail.segments.map(s =>
+        `<div class="seg" style="left:${s.start / meta.duration * 100}%;width:${(s.end - s.start) / meta.duration * 100}%;background:${speakerColor(s.speaker)}" title="${esc(s.label)}"></div>`).join('')}<div class="head" id="head"></div></div>
+      <div class="controls">
+        <button id="tagsBtn" class="${showTags ? 'on' : ''}">Entity tags</button>
+        <button id="scrollBtn" class="${autoScroll ? 'on' : ''}">Follow playback</button>
+        <button id="rate">Speed 1×</button>
+        <span class="legend" style="margin-left:auto">${TAGS.map(t => `<span><i style="background:var(--${t})"></i>${t}</span>`).join('')}</span>
+      </div>
+    </div>
+    <div class="card ${showTags ? '' : 'notags'}" id="tx">
+      <h3>Human transcript</h3>
+      ${detail.segments.map((s, i) => `<div class="seg-row ${/atco/i.test(s.label) ? 'atco' : ''}" data-i="${i}">
+        <div class="who"><b style="color:${speakerColor(s.speaker)}">${esc(s.label || s.speaker)}</b><span>${fmt(s.start)} – ${fmt(s.end)}</span></div>
+        <div class="txt">${s.spans.map(sp => `<span class="${tagClass(sp.tag)}" title="${esc(sp.tag || '')}">${esc(sp.text)}</span>`).join(' ')}
+        ${s.non_english ? ' <em class="t-other">(non-English)</em>' : ''}</div></div>`).join('')}
+    </div>
+    <div class="card">
+      <h3>Automatic ASR transcript (.cnet best path)</h3>
+      <div class="asr" id="asr">${detail.asr.length ? detail.asr.map((w, i) =>
+        `<span data-i="${i}" class="${w.conf < 0.6 ? 'low' : ''}" title="confidence ${w.conf.toFixed(2)} · ${fmt(w.start)}">${esc(w.word)}</span>`).join(' ') : '<span class="sub">No ASR output for this file.</span>'}</div>
+      <div class="sub" style="margin:8px 0 0">Wavy underline = confidence &lt; 0.6. Click a word to jump.</div>
+    </div>
+    <div class="card grid2">
+      <div><h3>Recording info</h3><dl class="kv">${Object.entries(detail.info).filter(([k]) => k !== 'waypoints nearby').map(([k, v]) =>
+        `<dt>${esc(k)}</dt><dd>${/^https?:/.test(v) ? `<a href="${esc(v)}" target="_blank" rel="noopener">${esc(v.split('/').pop())}</a>` : esc(v)}</dd>`).join('')}
+        ${detail.info['waypoints nearby'] ? `<dt>waypoints</dt><dd>${esc(detail.info['waypoints nearby'])}</dd>` : ''}</dl></div>
+      <div><h3>Nearby callsigns (${detail.callsigns.length})</h3><div class="cs">${detail.callsigns.map(c =>
+        `<div class="${said.includes(c.spoken.toLowerCase()) ? 'hit' : ''}"><code>${esc(c.code)}</code> ${esc(c.spoken)}</div>`).join('') || '<span class="sub">none</span>'}</div>
+        <div class="sub" style="margin-top:6px">Highlighted = spoken in this recording.</div></div>
+    </div>`;
+  wirePlayer(meta);
+  if (autoplay) $('#audio').play().catch(() => {});
+}
+
+function wirePlayer(meta) {
+  const audio = $('#audio'), rows = [...document.querySelectorAll('.seg-row')], words = [...document.querySelectorAll('#asr span[data-i]')];
+  let lastSeg = -1, lastWord = -1;
+  audio.playbackRate = +($('#rate').dataset.r || 1);
+  const seek = t => { audio.currentTime = t; audio.play().catch(() => {}); };
+  rows.forEach(r => r.addEventListener('click', () => seek(detail.segments[r.dataset.i].start)));
+  words.forEach(w => w.addEventListener('click', () => seek(detail.asr[w.dataset.i].start)));
+  $('#tl').addEventListener('click', e => { const b = e.currentTarget.getBoundingClientRect(); seek((e.clientX - b.left) / b.width * meta.duration); });
+  $('#tagsBtn').onclick = e => { showTags = !showTags; e.target.classList.toggle('on', showTags); $('#tx').classList.toggle('notags', !showTags); };
+  $('#scrollBtn').onclick = e => { autoScroll = !autoScroll; e.target.classList.toggle('on', autoScroll); };
+  $('#rate').onclick = e => { const rs = [1, 1.25, 1.5, 0.75], r = rs[(rs.indexOf(audio.playbackRate) + 1) % rs.length]; audio.playbackRate = r; e.target.textContent = `Speed ${r}×`; e.target.dataset.r = r; };
+  const tick = () => {
+    if (!audio.isConnected) return;
+    const t = audio.currentTime;
+    $('#head').style.left = (t / (audio.duration || meta.duration) * 100) + '%';
+    const si = detail.segments.findIndex(s => t >= s.start && t < s.end);
+    if (si !== lastSeg) {
+      rows.forEach((r, i) => r.classList.toggle('active', i === si));
+      if (si >= 0 && autoScroll && !audio.paused) rows[si].scrollIntoView({block: 'nearest', behavior: 'smooth'});
+      lastSeg = si;
+    }
+    const wi = detail.asr.findIndex(w => t >= w.start && t < w.end);
+    if (wi !== lastWord) { words.forEach((w, i) => w.classList.toggle('cur', i === wi)); lastWord = wi; }
+    requestAnimationFrame(tick);
+  };
+  requestAnimationFrame(tick);
+}
+
+document.addEventListener('keydown', e => {
+  if (e.target.matches('input, select')) return;
+  const audio = $('#audio');
+  if (e.key === ' ' && audio) { e.preventDefault(); audio.paused ? audio.play() : audio.pause(); }
+  else if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+    e.preventDefault();
+    const i = shown.findIndex(f => f.id === cur), n = shown[i + (e.key === 'ArrowDown' ? 1 : -1)] || (i < 0 ? shown[0] : null);
+    if (n) select(n.id, true);
+  } else if ((e.key === 'ArrowRight' || e.key === 'ArrowLeft') && audio && detail) {
+    e.preventDefault();
+    const t = audio.currentTime, segs = detail.segments;
+    const s = e.key === 'ArrowRight' ? segs.find(s => s.start > t + 0.05) : [...segs].reverse().find(s => s.start < t - 0.5);
+    audio.currentTime = s ? s.start : 0;
+  }
+});
+
+init();
+</script>
+</body>
+</html>

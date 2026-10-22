@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>1.8</end>
+		<speaker>H</speaker>
+		<speaker_label>ATCO Tower</speaker_label>
+		<text>[#callsign]KLM One Three Five Zero[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>1.8</start>
+		<end>3</end>
+		<speaker>B</speaker>
+		<speaker_label>KLM1350</speaker_label>
+		<text>[#unnamed]sorry go ahead[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>3</start>
+		<end>6.96</end>
+		<speaker>H</speaker>
+		<speaker_label>ATCO Tower</speaker_label>
+		<text>[#unnamed]yeah[/#unnamed] [#command]contact[/#command] [#unnamed]radar[/#unnamed] [#value]one two zero two seven five[/#value] [#unnamed] [NE]ahoj[/NE][/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>6.98</start>
+		<end>11.4</end>
+		<speaker>B</speaker>
+		<speaker_label>KLM1350</speaker_label>
+		<text>[#value]one two zero two seven five[/#value] [#unnamed] [NE]ahoj[/NE][/#unnamed] [#callsign]KLM One Three Five Zero[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

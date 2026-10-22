@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.11</start>
+		<end>4.8</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>[#callsign]Bair Nine Five One[/#callsign] [#command]startup approved[/#command] [#value]runway two five[/#value] [#unnamed]QNH[/#unnamed] [#value]one zero one two[/#value] [#command]report[/#command] [#value]ready for taxi[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>5.45</start>
+		<end>9.59</end>
+		<speaker>B</speaker>
+		<speaker_label>ABP951</speaker_label>
+		<text>[#command]approved[/#command] [#unnamed]QNH[/#unnamed] [#value]one zero one two[/#value] [#command]report[/#command] [#value]ready for taxi[/#value] [#callsign]Bair Nine Five Two[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

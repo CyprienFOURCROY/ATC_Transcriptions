@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>1.69</end>
+		<speaker>B</speaker>
+		<speaker_label>HBZWE</speaker_label>
+		<text>[#unnamed]number one in sight[/#unnamed] [#callsign]Hotel Whiskey Echo[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>1.86</start>
+		<end>4.01</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Hotel Whiskey Echo[/#callsign] [#unnamed]thank you[/#unnamed] [#command]follow behind[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

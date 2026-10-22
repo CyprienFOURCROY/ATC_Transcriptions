@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.1</start>
+		<end>5.52</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Royalair Maroc Three Five Two[/#callsign] [#command]contact[/#command] [#unnamed]apron[/#unnamed] [#value]one two one decimal eight five five[/#value] [#unnamed]good bye[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>5.64</start>
+		<end>8.82</end>
+		<speaker>B</speaker>
+		<speaker_label>RAM352</speaker_label>
+		<text>[#value]one two one decimal eight five five[/#value] [#unnamed]good bye[/#unnamed] [#callsign]Royalair Maroc Three Five Two[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

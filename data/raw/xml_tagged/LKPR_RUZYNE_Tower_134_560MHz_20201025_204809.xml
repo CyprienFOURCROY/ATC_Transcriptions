@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.06</start>
+		<end>4.01</end>
+		<speaker>B</speaker>
+		<speaker_label>EAT421</speaker_label>
+		<text>Ruzyne tower [#callsign]Trans Europe Four Two One[/#callsign] [Ne Czech] dobrý večer [/Ne] [#command]establish[/#command] localizer [#value]two four[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>4.76</start>
+		<end>8.98</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Trans Europe Four Two One[/#callsign] [Ne Czech] dobrý večer [/Ne] Ruzyne tower [#command]continue approach[/#command] runway [#value]two four[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>9.24</start>
+		<end>12.18</end>
+		<speaker>B</speaker>
+		<speaker_label>EAT421</speaker_label>
+		<text>[#command]continue approach[/#command] runway [#value]two four[/#value] [#callsign]Trans Europe Four Two One[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>3.81</start>
+		<end>10.6</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Foxtrot Lima[/#callsign] [#unnamed]hello again[/#unnamed] [#value]taxiway juliett[/#value] [#command]cross[/#command] [#value]runway two eight[/#value] [#command]contact[/#command] [#unnamed]apron[/#unnamed] [#value]one two one decimal seven five five[/#value] [#unnamed]good day[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>10.96</start>
+		<end>17.84</end>
+		<speaker>B</speaker>
+		<speaker_label>THY6FL</speaker_label>
+		<text>[#value]taxiway juliett[/#value] [#command]cross[/#command] [#value]runway two eight after[/#value] [#command]crossing[/#command] [#value]one two one seven five five[/#value] [#callsign]Turkish Six Foxtrot Lima[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>18.02</start>
+		<end>18.98</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#unnamed]thank you[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>1.17</start>
+		<end>7.74</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>[#callsign]Foxtrot Delta Uniform [/#callsign] [#command]report[/#command] [#value] november whiskey [/#value] [#unnamed]wind[/#unnamed] [#value]two seven zero degrees[/#value]   [#value]one zero knots[/#value]   [#value]runway two five[/#value] [#command]cleared for takeoff[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>8.35</start>
+		<end>13.64</end>
+		<speaker>B</speaker>
+		<speaker_label>FPADU</speaker_label>
+		<text>[#command]cleared for takeoff[/#command] [#value]two five[/#value] [#callsign] Foxtrot Delta Uniform[/#callsign] [#unnamed]thanks[/#unnamed] [#value]november whiskey[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

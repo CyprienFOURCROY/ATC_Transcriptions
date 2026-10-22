@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.11</start>
+		<end>3.62</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#unnamed]Stefanik tower[/#unnamed] [#unnamed] [NE Slovak] pekné popoludnie [/NE][/#unnamed] [#callsign]Tatra Six One Three[/#callsign] [#command]establish ILS[/#command] [#value]three one[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>3.76</start>
+		<end>12.85</end>
+		<speaker>B</speaker>
+		<speaker_label>TTJ613</speaker_label>
+		<text>[#callsign]Tatra Six One Three[/#callsign] [#unnamed] [NE Slovak] dobré popoludnie [/NE][/#unnamed] [#unnamed]Stefanik tower[/#unnamed] [#value]runway three one[/#value] [#command]cleared to land[/#command] [#unnamed]wind[/#unnamed] [#value]three zero zero degrees[/#value] [#value]one niner knots[/#value] [#value]maximum three three knots[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>13.06</start>
+		<end>15.63</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#value]runway [hes] three one[/#value] [#command]clear to land[/#command] [#callsign]Tatra Six One Three[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>15.76</start>
+		<end>18.35</end>
+		<speaker>B</speaker>
+		<speaker_label>TTJ613</speaker_label>
+		<text>[noise] and [#value]after landing[/#value] [#command]vacate via[/#command] [#value]delta[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>18.52</start>
+		<end>20.01</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#value]after landing[/#value]  [#value]via delta[/#value] [#callsign]Six One Three[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.07</start>
+		<end>4.23</end>
+		<speaker>D</speaker>
+		<speaker_label>UNK-1</speaker_label>
+		<text>[#unnamed]Swiss Radar[/#unnamed] [#callsign]One Three Five Six Eight Zero[/#callsign] [#command]next[/#command] [#value]seven five zero eight[/#value] [#unnamed]bye bye[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

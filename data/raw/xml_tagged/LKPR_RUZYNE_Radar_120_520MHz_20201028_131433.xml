@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>9.67</end>
+		<speaker>G</speaker>
+		<speaker_label>OK-UTC</speaker_label>
+		<text>[#unnamed]Praha Radar[/#unnamed] [#callsign]Oscar Kilo Uniform Tango Charlie[/#callsign] [#unnamed] [NE Czech] dobrý den [/NE][/#unnamed] [hes] [#command]passing[/#command] [#value]three thousand nine hundred[/#value] [#command]climbing[/#command] [#value]flight level seven zero[/#value] [#command]inbound[/#command] [#value]Vlasim[/#value] [#command]ready for IFR[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>9.67</start>
+		<end>14.63</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO radar</speaker_label>
+		<text>[#callsign]Oscar Kilo Uniform Tango Charlie[/#callsign] [#unnamed] [NE Czech] dobrý den [/NE][/#unnamed] [#unnamed]Praha Radar[/#unnamed] [#command]identified[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>14.65</start>
+		<end>20.63</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO radar</speaker_label>
+		<text>[#command]climb[/#command] [#value]flight level seven zero[/#value] and [#command]cleared to [hes][/#command]  [#value]destination Benesov[/#value]    [#value]via flight plan route[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>20.65</start>
+		<end>24.86</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO radar</speaker_label>
+		<text>[#unnamed]IFR flight starts now[/#unnamed] [#value]time one three one four[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

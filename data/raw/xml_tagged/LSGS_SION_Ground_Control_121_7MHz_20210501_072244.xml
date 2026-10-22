@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.02</start>
+		<end>3.02</end>
+		<speaker>D</speaker>
+		<speaker_label>UNK-1</speaker_label>
+		<text>[#callsign]Hotel Echo X-ray[/#callsign] [#unnamed]roger[/#unnamed] [#command]taxi[/#command] [#value]holding point bravo[/#value] and [#command]report[/#command] [#value]ready[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

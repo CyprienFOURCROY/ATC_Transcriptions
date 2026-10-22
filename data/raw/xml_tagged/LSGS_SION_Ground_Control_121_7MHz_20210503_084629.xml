@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.19</start>
+		<end>4.69</end>
+		<speaker>D</speaker>
+		<speaker_label>UNK-1</speaker_label>
+		<text>[#unnamed]roger[/#unnamed] [#callsign]Hotel Foxtrot Kilo [/#callsign] [#command]report[/#command] [#value] whiskey [/#value] [#unnamed]QNH[/#unnamed] [#value]one zero two three[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

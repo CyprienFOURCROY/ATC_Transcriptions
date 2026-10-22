@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>2.52</end>
+		<speaker>B</speaker>
+		<speaker_label>CSA1DZ</speaker_label>
+		<text>[#unnamed]Radar[/#unnamed] [#callsign]CSA One Delta Zulu[/#callsign] [#command]established[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>2.52</start>
+		<end>6.93</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO radar</speaker_label>
+		<text>[#callsign]CSA One Delta Zulu[/#callsign] [#unnamed]roger[/#unnamed] [#command]contact[/#command] [#unnamed]Ruzyne Tower[/#unnamed] [#value]one three four decimal five six zero[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>6.93</start>
+		<end>7.89</end>
+		<speaker>E</speaker>
+		<speaker_label>UNK-1</speaker_label>
+		<text>[noise]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>7.89</start>
+		<end>11.21</end>
+		<speaker>B</speaker>
+		<speaker_label>CSA1DZ</speaker_label>
+		<text>[#value]three four five six zero[/#value] [#callsign]CSA One Delta Zulu[/#callsign] [#unnamed] [NE Slovak]pekný deň[/NE][/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>4.04</end>
+		<speaker>B</speaker>
+		<speaker_label>GSW601</speaker_label>
+		<text>[#unnamed]Zurrich tower hello then[/#unnamed] [#callsign]Arrow Jet Six Zero One[/#callsign] [#value]on foxtrot[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>4.04</start>
+		<end>9.28</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Arrow Jet Six Zero One[/#callsign] [#unnamed]tower[/#unnamed] [#value]on Foxtrot[/#value] [#command]cross[/#command] [#value]runway one zero[/#value] [#command]contact[/#command] [#unnamed]apron[/#unnamed] [#value]one two one decimal seven five five[/#value] [#command]sorry[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>9.31</start>
+		<end>12.15</end>
+		<speaker>B</speaker>
+		<speaker_label>GSW601</speaker_label>
+		<text>[#value]on Foxtrot[/#value] [#command]cross[/#command] [#value]runway one zero one two one seven five[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>12.15</start>
+		<end>14.51</end>
+		<speaker>XT</speaker>
+		<speaker_label></speaker_label>
+		<text>[#callsign]Alitalia five seven two[/#callsign] [XT]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

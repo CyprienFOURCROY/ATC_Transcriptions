@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.17</start>
+		<end>2.58</end>
+		<speaker>B</speaker>
+		<speaker_label>FCK511</speaker_label>
+		<text>[#callsign]Nav Checker Five One One[/#callsign] [#value]established[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>3.04</start>
+		<end>6.96</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>[#callsign]Nav Checker Five One One Five One One[/#callsign] [#unnamed]thank you[/#unnamed] [#command]report[/#command] [#value]one zero miles[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>7.53</start>
+		<end>10.52</end>
+		<speaker>B</speaker>
+		<speaker_label>FCK511</speaker_label>
+		<text>[#command]reported[/#command] [#value]one zero miles[/#value] [#callsign]Nav Checker Five One One[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

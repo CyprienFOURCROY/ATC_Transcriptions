@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.42</start>
+		<end>5.14</end>
+		<speaker>B</speaker>
+		<speaker_label>SIA7274</speaker_label>
+		<text>[#unnamed]tower good morning[/#unnamed] [#callsign]Singapore Seven Two Seven Four heavy[/#callsign] [hes] [#command]ILS[/#command] [#value]one three zero one six right[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

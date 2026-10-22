@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.14</start>
+		<end>8.52</end>
+		<speaker>B</speaker>
+		<speaker_label>HBKGN</speaker_label>
+		<text>[#unnamed]Bern Tower hello again[/#unnamed] [#callsign]Hotel Bravo Kilo Golf November[/#callsign] [noise] [#value]zulu five thousand feet[/#value] [#command]descending[/#command] [#unnamed]information charlie[/#unnamed] for [#command]landing by[/#command] [#value]route zulu[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>8.75</start>
+		<end>15.37</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Hotel Bravo Kilo Golf November[/#callsign] [#unnamed]Bern Tower QNH[/#unnamed] [#value]one zero two six[/#value] and [#unnamed]arrival route[/#unnamed] [#value]zulu[/#value] to [#command]join[/#command] [#value]final runway three two[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

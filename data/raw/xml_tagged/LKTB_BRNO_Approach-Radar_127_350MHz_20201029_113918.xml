@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>2.28</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#callsign]Oscar Kilo Mike Delta Hotel[/#callsign] [#command]pass[/#command] [#value]your message[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>2.28</start>
+		<end>8.24</end>
+		<speaker>G</speaker>
+		<speaker_label>OKMDH</speaker_label>
+		<text>[#unnamed]is it okay for you if[/#unnamed] [#command]we maintain[/#command]           [#value]four nautical miles left-hand track all the way down to Benesov[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

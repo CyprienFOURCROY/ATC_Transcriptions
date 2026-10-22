@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>4.84</end>
+		<speaker>B</speaker>
+		<speaker_label>PF</speaker_label>
+		<text>[#callsign]Papa Foxtrot[/#callsign] [#command]approaching[/#command] [#unnamed]Bern city[/#unnamed] [#command]request to[/#command] [#value]make an orbid over the [NE German] Bundeshaus [/NE][/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>4.84</start>
+		<end>6.36</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#callsign]Papa Foxtrot[/#callsign] that [#command]is approved[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>6.36</start>
+		<end>8.46</end>
+		<speaker>B</speaker>
+		<speaker_label>PF</speaker_label>
+		<text>[#command]orbit approved[/#command] [#callsign]Hotel Papa Foxtrot[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

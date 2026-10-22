@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>2.86</end>
+		<speaker>B</speaker>
+		<speaker_label>T50</speaker_label>
+		<text>[#callsign]Twinjet Five Zero[/#callsign] on a [#unnamed]short delay[/#unnamed] [#command]waiting[/#command] [#value]on our release from the back[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.09</start>
+		<end>3.39</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#callsign]Hotel India Alpha[/#callsign] [#value]until four miles[/#value] [#command]maintain[/#command] [#value]one hundred knots or greater[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

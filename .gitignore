@@ -1,0 +1,9 @@
+# large / downloaded artefacts
+models/
+data/raw/*.tgz
+data/raw/*.tar.gz
+data/raw/ATCO2-ASRdataset-v1_beta/
+outputs/transcripts/
+
+__pycache__/
+.DS_Store

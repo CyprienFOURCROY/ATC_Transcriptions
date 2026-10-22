@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>1.92</end>
+		<speaker>B</speaker>
+		<speaker_label>HBKGO</speaker_label>
+		<text>[#value]number one[/#value] [#unnamed]in sight[/#unnamed] [#callsign]Hotel Golf Oscar[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>1.96</start>
+		<end>5.23</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Golf Oscar[/#callsign] [#unnamed]roger turn base behind[/#unnamed] he will [#command]do a go around[/#command] [#value]over threshold[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

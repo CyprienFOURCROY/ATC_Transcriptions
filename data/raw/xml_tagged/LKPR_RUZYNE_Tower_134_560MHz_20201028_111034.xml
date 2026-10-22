@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>7.84</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Emirates One Three Nine[/#callsign] [#command]taxi via[/#command] [#value]foxtrot[/#value] [#command]cross[/#command] [#value]runway one two golf juliett[/#value] [#unnamed]stand[/#unnamed] [#value]one four alpha[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>7.84</start>
+		<end>13.55</end>
+		<speaker>B</speaker>
+		<speaker_label>UAE139</speaker_label>
+		<text>[#command]taxi via[/#command] [#value]foxtrot[/#value] [#command]cross[/#command] [#value]runway one two[/#value] [hes] [#value]golf juliett[/#value] [#unnamed]stand[/#unnamed] [#value]one four alpha[/#value] [#callsign]Emirates One Three Nine[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

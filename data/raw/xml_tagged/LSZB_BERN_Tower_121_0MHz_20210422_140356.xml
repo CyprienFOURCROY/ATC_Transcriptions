@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>5.48</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Hotel Bravo Zulu Sierra November[/#callsign] [#unnamed]Berne tower[/#unnamed] [#command]enter via[/#command] [#value]route hotel whiskey[/#value] [#unnamed]QNH[/#unnamed] [#value]one zero one eight[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

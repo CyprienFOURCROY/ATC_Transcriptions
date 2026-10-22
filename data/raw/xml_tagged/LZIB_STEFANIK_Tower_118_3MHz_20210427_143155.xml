@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>6.51</end>
+		<speaker>B</speaker>
+		<speaker_label>OMCIA</speaker_label>
+		<text>[#unnamed]stefanik tower[/#unnamed] [#callsign]Oscar Mike Charlie India Alpha[/#callsign] [#value]final runway one three[/#value] [#callsign]Oscar Mike Charlie India Alpha[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>6.59</start>
+		<end>12.84</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Oscar Mike Charlie India Alpha[/#callsign] [#value]runway one three[/#value] [#command]cleared to land[/#command] [#unnamed]wind[/#unnamed]    [#value]one three zero degrees[/#value]  [#value]eight knots[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

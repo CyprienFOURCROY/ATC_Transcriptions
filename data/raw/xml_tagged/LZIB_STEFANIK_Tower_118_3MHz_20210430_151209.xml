@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.11</start>
+		<end>6.46</end>
+		<speaker>A</speaker>
+		<speaker_label>AHO692L</speaker_label>
+		<text>[#unnamed]Stefanik tower[/#unnamed] [#unnamed][NE Slovak] dobrý deň [/NE][/#unnamed] [#callsign]Burg Six Nine Two Lima[/#callsign] [#command]stop established[/#command] [#value]runway three one six point five[/#value] [#unnamed]DME[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>6.5</start>
+		<end>10.03</end>
+		<speaker>B</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Air Hamburg Six Niner Two Lima[/#callsign] [#unnamed]Stefanik tower[/#unnamed] [#unnamed][NE Slovak] dobrý deň [/NE][/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>10.06</start>
+		<end>19.63</end>
+		<speaker>B</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#unnamed]wind[/#unnamed]    [#value]two two zero degrees[/#value]  [#value]five knots[/#value]          [#value]variable between one seven zero and two three zero degrees[/#value]     [#value]maximum one zero minimum three[/#value] [hes] [#value]runway three one[/#value] [#command]cleared to land[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

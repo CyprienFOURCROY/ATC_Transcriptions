@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>4.68</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]CSA Nine One Eight[/#callsign] [#command] taxi[/#command] [#value]holding point[/#value] [#value]runway two four to the right[/#value] [#value]via Delta Bravo[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>4.68</start>
+		<end>8.39</end>
+		<speaker>C</speaker>
+		<speaker_label>CSA918</speaker_label>
+		<text>[#command]taxi[/#command] [#value]Delta Bravo[/#value]    [#value]holding point two four[/#value] [#callsign]CSA Nine One Eight[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

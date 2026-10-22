@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>5.23</end>
+		<speaker>B</speaker>
+		<speaker_label>ELJ704</speaker_label>
+		<text>[#value]runway three one[/#value] [#command]cleared to land[/#command] we [#command]copied[/#command] [#callsign]Topjet [hes] Seven Zero Four[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

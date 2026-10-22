@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>4.67</end>
+		<speaker>B</speaker>
+		<speaker_label>DLH8HR</speaker_label>
+		<text>[hes] [#unnamed]good evening[/#unnamed] [#callsign]Lufthansa Eight Hotel Romeo[/#callsign] [#command]passing[/#command] [#value]two thousand five hundred[/#value] [#command]climbing[/#command] [#value]five thousand[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>4.76</start>
+		<end>9.44</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO radar</speaker_label>
+		<text>[#callsign]Lufthansa Eight Hotel Romeo[/#callsign] [hes] [#unnamed]Praha Radar good evening[/#unnamed] [#command]identified[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>9.44</start>
+		<end>12.11</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO radar</speaker_label>
+		<text>[#command]climb to[/#command] [#value]flight level one six zero[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>12.11</start>
+		<end>15.26</end>
+		<speaker>B</speaker>
+		<speaker_label>DLH8HR</speaker_label>
+		<text>[#callsign]Lufthansa Eight Hotel Romeo[/#callsign] [#command]climb[/#command] [#value]flight level one six zero[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

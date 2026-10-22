@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>5.74</end>
+		<speaker>B</speaker>
+		<speaker_label>BCS13J</speaker_label>
+		<text>[#command]startup push back approved[/#command] [#value]position to Foxtrot[/#value] [#unnamed]squawk[/#unnamed] [#value]four four zero seven[/#value] [#callsign]Eurotrans One Three Juliett[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

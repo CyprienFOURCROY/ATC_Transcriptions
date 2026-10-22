@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>10.17</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO radar</speaker_label>
+		<text>[#callsign]Skytravel Two Eight Two Seven[/#callsign] and there is [#unnamed]closed echo airspace below[/#unnamed] [#value]flight level one hundred[/#value] so [hes] if you [#unnamed]wish to avoid[/#unnamed] [#value]class echo airspace[/#value] next [#command]descend in[/#command] [#value]two zero miles[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

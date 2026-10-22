@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>3.78</start>
+		<end>9.48</end>
+		<speaker>G</speaker>
+		<speaker_label>Crosstalk</speaker_label>
+		<text>[#callsign]Air Nostrum Eight Zero Quebec Yankee[/#callsign] [#unnamed]tower hello wind[/#unnamed]    [#value]zero seven zero degrees[/#value]   [#value]right zero nine[/#value] [#value]runway one four[/#value] [#command]cleared to land[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

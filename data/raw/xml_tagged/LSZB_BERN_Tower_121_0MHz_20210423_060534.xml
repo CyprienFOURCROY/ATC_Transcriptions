@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>9.71</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Heli Tango Whiskey[/#callsign] [#command]negative[/#command] it's fine if you want you [#unnamed]can monitor the frequency but[/#unnamed] it's up to you [#unnamed]if you stay[/#unnamed] [hes] [#unnamed]outside of CTR[/#unnamed] all the time</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.12</start>
+		<end>5.37</end>
+		<speaker>B</speaker>
+		<speaker_label>CAL051</speaker_label>
+		<text>[#unnamed]roger[/#unnamed] [hes] [#command]continue approach[/#command] [hes]   [#command]expect to land[/#command] [#command] vacate[/#command] [#value]golf[/#value] [#callsign]Dynasty Zero Five One[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

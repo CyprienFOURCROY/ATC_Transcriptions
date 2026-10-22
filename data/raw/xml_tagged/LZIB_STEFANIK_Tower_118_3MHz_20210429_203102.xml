@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>5.4</end>
+		<speaker>B</speaker>
+		<speaker_label>pilot</speaker_label>
+		<text>[#callsign]two zero three six[/#callsign] [#unnamed]thanks[/#unnamed] for your help [hes] [#value]one three juliett[/#value] [#command]start and push and start call you for[/#command] [#unnamed]taxi[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>5.45</start>
+		<end>8.31</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#unnamed]roger squawk[/#unnamed] [#value]four four zero four[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

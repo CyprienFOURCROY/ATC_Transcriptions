@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>4.14</end>
+		<speaker>B</speaker>
+		<speaker_label>AAL73</speaker_label>
+		<text>[#unnamed]Sydney tower good morning[/#unnamed] [#callsign]American Seventy Three[/#callsign] [#command]ILS[/#command] [#value]three four left[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

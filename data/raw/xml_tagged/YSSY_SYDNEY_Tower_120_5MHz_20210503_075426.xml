@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.24</start>
+		<end>4.2</end>
+		<speaker>B</speaker>
+		<speaker_label>JST475</speaker_label>
+		<text>[#unnamed]hello Sydney good evening[/#unnamed] [#callsign]Jetstar Four Seventy Five[/#callsign] [#command]climbing[/#command] [#value]flight level two eight zero[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

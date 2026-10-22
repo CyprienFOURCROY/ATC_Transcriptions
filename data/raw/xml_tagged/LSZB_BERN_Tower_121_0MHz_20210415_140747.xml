@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>2.99</end>
+		<speaker>B</speaker>
+		<speaker_label>HPG</speaker_label>
+		<text>[#callsign]Hotel Papa Golf[/#callsign] [#unnamed]turning base[/#unnamed] [#value]runway three two[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>3.16</start>
+		<end>7.56</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Hotel Papa Golf[/#callsign] [#unnamed]wind[/#unnamed]    [#value]zero four zero degrees[/#value]  [#value]eight knots[/#value]   [#value]runway three two[/#value] [#command]cleared to land[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>7.7</start>
+		<end>9.71</end>
+		<speaker>B</speaker>
+		<speaker_label>HPG</speaker_label>
+		<text>[#value]three two[/#value] [#command]cleared to land[/#command] [#callsign]Hotel Papa Golf[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>5.47</start>
+		<end>9.22</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Hotel Charlie Whiskey[/#callsign] [#unnamed]wind[/#unnamed]    [#value]two three zero degrees[/#value]  [#value]eight knots[/#value]   [#value]runway two five[/#value] [#command]just stop and go[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

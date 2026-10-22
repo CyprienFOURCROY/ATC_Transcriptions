@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.41</start>
+		<end>7.5</end>
+		<speaker>D</speaker>
+		<speaker_label>UNK-1</speaker_label>
+		<text>[#unnamed]Sion[/#unnamed] [#callsign]Heli Hotel Bravo Zulu Charlie Zulu[/#callsign] [#command]we just upon[/#command] [#unnamed]Val-d'Annivier[/#unnamed] [#value]low altitude for[/#value] [#unnamed]hook mission[/#unnamed] [#command]etablished for[/#command] [#value]one low altitude[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

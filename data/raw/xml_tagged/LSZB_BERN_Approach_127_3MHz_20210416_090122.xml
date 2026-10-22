@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>8.61</start>
+		<end>9.51</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#value]one point zero[/#value] [#command]stand by[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>9.73</start>
+		<end>13.55</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#callsign]Delta Alpha Uniform[/#callsign] the [#unnamed]field is at[/#unnamed] [#value]your two o'clock position[/#value] [#value]four miles[/#value] [#command]confirm in sight[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>13.76</start>
+		<end>16.64</end>
+		<speaker>B</speaker>
+		<speaker_label>DEKAU</speaker_label>
+		<text>affirm we [#command]descend flight[/#command] and we are [#command]ready for[/#command] [#value]visual[/#value] [#callsign]Delta Alpha Uniform[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>16.92</start>
+		<end>21.43</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#callsign]Delta Alpha Uniform[/#callsign]     [#command]further descend at your discretion[/#command]   [#command]cleared visual approach[/#command] [#value]runway three two[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>21.71</start>
+		<end>23.91</end>
+		<speaker>B</speaker>
+		<speaker_label>DEKAU</speaker_label>
+		<text>[#command]cleared for visual approach[/#command] [#value]three two[/#value] [#callsign]Delta Alpha Uniform[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>23.99</start>
+		<end>28.15</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#callsign]Delta Alpha Uniform[/#callsign] [#unnamed]radar service terminated[/#unnamed] [#command]contact[/#command] [#unnamed]tower[/#unnamed] [#value]one two one decimal zero two five[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>28.17</start>
+		<end>31.85</end>
+		<speaker>B</speaker>
+		<speaker_label>DEKAU</speaker_label>
+		<text>[#unnamed]radar terminates[/#unnamed] and [#value]one two one zero two five[/#value] [#unnamed] [NE-German] bis spater [/NE][/#unnamed] [#callsign]Delta Alpha Uniform[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>32.15</start>
+		<end>32.49</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#unnamed]Good night[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

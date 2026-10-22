@@ -1,0 +1,3 @@
+Wrote /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/transcripts/whisper-turbo/prompts.json: {'recordings': 20, 'with_prompt': 0, 'max_tokens': 223}
+Loading /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/models/whisper-turbo (cpu, int8, 10 threads)...
+Done: 0 new, 27 total in /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/transcripts/whisper-turbo/hyps.jsonl

@@ -1,0 +1,5 @@
+system,files,wer,sub,del,ins,ref_words,callsign_acc,wer_LKPR_RUZYNE
+whisper-turbo,20,0.4057,0.2324,0.0305,0.1429,525,0.2105,0.4057
+whisper-turbo-atc,20,0.2724,0.1467,0.0495,0.0762,525,0.4474,0.2724
+whisper-turbo-callsigns,20,0.3638,0.1962,0.0514,0.1162,525,0.2895,0.3638
+atco2-cnet,20,0.2095,0.1219,0.04,0.0476,525,0.6053,0.2095

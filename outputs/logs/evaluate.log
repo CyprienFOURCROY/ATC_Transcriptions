@@ -1,0 +1,8 @@
+
+system                       files    WER   sub   del   ins callsign    LKPR
+whisper-turbo                   20  40.6% 23.2%  3.0% 14.3%    21.1%   40.6%
+whisper-turbo-atc               20  27.2% 14.7%  5.0%  7.6%    44.7%   27.2%
+whisper-turbo-callsigns         20  36.4% 19.6%  5.1% 11.6%    28.9%   36.4%
+atco2-cnet                      20  20.9% 12.2%  4.0%  4.8%    60.5%   20.9%
+
+Details: /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/eval/summary.csv and /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/eval/<system>_per_file.csv

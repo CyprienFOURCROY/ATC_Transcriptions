@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>3.79</end>
+		<speaker>B</speaker>
+		<speaker_label>RYR7RM</speaker_label>
+		<text>[#callsign]Ryan Air Seven Romeo Mike[/#callsign] route reaching and holding runway two four we are ready for departure</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>4.18</start>
+		<end>6.5</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Ryan Air seven Romeo Mike[/#callsign] [#command]line up[/#command] runway [#value]two four[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>6.78</start>
+		<end>9.4</end>
+		<speaker>B</speaker>
+		<speaker_label>RYR7RM</speaker_label>
+		<text>[#command]line up and wait[/#command] runway [#value]two four[/#value] [#callsign]Ryan Air Seven Romeo Mike[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

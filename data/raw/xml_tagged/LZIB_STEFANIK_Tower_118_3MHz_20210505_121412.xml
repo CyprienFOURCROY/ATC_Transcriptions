@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>3.99</end>
+		<speaker>B</speaker>
+		<speaker_label>ELJ201</speaker_label>
+		<text>[#callsign]Elite Jet Two Zero One[/#callsign] [#value]and via foxtrot[/#value] [#command]line up[/#command] [#value]three one[/#value] [#command]report ready[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

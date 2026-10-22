@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>5.23</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO ApronS</speaker_label>
+		<text>[#callsign]Dagobert One Five Five Three[/#callsign] [#command]to confirm on[/#command] [#value]taxiway echo[/#value] [#command]hold short[/#command] [#value]runway one zero[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

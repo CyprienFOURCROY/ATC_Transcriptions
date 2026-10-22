@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.43</start>
+		<end>8.22</end>
+		<speaker>G</speaker>
+		<speaker_label>BRU870</speaker_label>
+		<text>[#unnamed]Warsaw Radar[/#unnamed] [#callsign]Belavia Eight Seven Zero[/#callsign] [#unnamed]good evening[/#unnamed] [#value]flight level three five zero[/#value] [#command]inbound[/#command] [#value]bigu[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

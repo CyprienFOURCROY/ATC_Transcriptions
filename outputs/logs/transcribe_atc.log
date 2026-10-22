@@ -1,0 +1,23 @@
+Wrote /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/transcripts/whisper-turbo-atc/prompts.json: {'recordings': 20, 'with_prompt': 20, 'max_tokens': 223}
+Loading /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/models/whisper-turbo (cpu, int8, 10 threads)...
+[1/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_091112    7.4s audio in  5.1s  (RTF 0.69)  Oscar Kilo Papa Mike Bravo, descend flight level one hundred, Oscar Ki
+[2/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_120512   11.4s audio in  5.1s  (RTF 0.55)  Oscar Kilo Kilo Echo Alpha radar identified. Clown flight level one hu
+[3/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_121325    6.0s audio in  4.8s  (RTF 0.61)  Reiner 73 of the hotel, turn left heading three six zero. Reiner 73 of
+[4/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_130407    7.1s audio in  5.0s  (RTF 0.63)  Oscar Kilo, Kilo, Info November, Prof. Darek, Baltum.
+[5/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_140929   12.2s audio in  5.5s  (RTF 0.58)  Euro Wings seven alpha Bravo, descend right heading two one zero, clea
+[6/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_161808   15.4s audio in  5.8s  (RTF 0.53)  Oscar Mepa pattern, right heading zero two zero, cleared as approach r
+[7/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_174652   16.0s audio in  6.3s  (RTF 0.50)  Good evening Lufthansa eight hotel Romeo, passing two thousand five hu
+[8/20] LKPR_RUZYNE_Radar_120_520MHz_20201025_213836   10.9s audio in  4.8s  (RTF 0.49)  Sky draw two eight two seven and there is class aquar space below flig
+[9/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_105217    7.7s audio in  5.4s  (RTF 0.51)  Speedbird eight five five, radar identified, flight flight level one s
+[10/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_105855    8.9s audio in  5.4s  (RTF 0.52)  Skytroll three five, Juliet. Ten right heading one eight zero, vectori
+[11/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_114352    8.8s audio in  5.3s  (RTF 0.52)  Oscar Kilo Papa Romeo Mike, turn right heading zero six zero. Zero six
+[12/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_130708    9.0s audio in  5.2s  (RTF 0.53)  Air flight one zero eight zero, stand by, now descend to, uh, descend 
+[13/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_142311    7.2s audio in  6.3s  (RTF 0.55)  Réna, NNH, Quebec, descend right heading zero, NNH zero.
+[14/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_144339   14.4s audio in 34.3s  (RTF 0.73)  Radar double dot one, Sky level four three two papa Orleans
+[15/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_145941   13.8s audio in  5.6s  (RTF 0.70)  Oscar Kilo triple hotel, please confirm one more holding. Oscar Kilo t
+[16/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_161349   11.5s audio in  6.1s  (RTF 0.69)  Radar CC one Delta Zulu established.
+[17/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_204323   10.1s audio in  5.5s  (RTF 0.68)  UPS 295, established. UPS 295, contact tower, frequency one three four
+[18/20] LKPR_RUZYNE_Radar_120_520MHz_20201026_205056    7.5s audio in  5.6s  (RTF 0.69)  Kilo 73. Whiskey, my team presiding for vectoring, I'll approach runwa
+[19/20] LKPR_RUZYNE_Radar_120_520MHz_20201027_121714    9.3s audio in  5.8s  (RTF 0.68)  Oscar Kilo Uniform Tango Charlie, release from frequency, flying infor
+[20/20] LKPR_RUZYNE_Radar_120_520MHz_20201027_125731    9.5s audio in  5.5s  (RTF 0.68)  One one eight decimal, six by zero. Let's see it, bye bye.
+Done: 20 new, 20 total in /Users/cyprienfourcroy/Desktop/ATC_Transcriptions/outputs/transcripts/whisper-turbo-atc/hyps.jsonl

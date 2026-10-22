@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>5.53</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO ApronS</speaker_label>
+		<text>[#callsign]Hotel Bravo Kilo Hotel Romeo[/#callsign] [#unnamed]apron hello QNH[/#unnamed] [#value]one zero two four[/#value] [#command]taxi to[/#command] [#value]holding position papa one[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>6.29</start>
+		<end>11.88</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO ApronS</speaker_label>
+		<text>and [#command]report ready for departure[/#command] [#value]once your're clear after inbound[/#value] [#callsign]Hotel Delta Lima[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

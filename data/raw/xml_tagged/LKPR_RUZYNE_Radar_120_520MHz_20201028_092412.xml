@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>5.64</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO radar</speaker_label>
+		<text>[#callsign]Oscar Uniform Romeo[/#callsign] [#command]turn left heading[/#command] [#value]two seven zero[/#value] [#command]cleared for ILS approach[/#command] [#value]runway two four[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>5.75</start>
+		<end>10.95</end>
+		<speaker>G</speaker>
+		<speaker_label>OK-OUR</speaker_label>
+		<text>[#command]turn left to[/#command] [#value]seven zero[/#value] [#command]cleared for ILS[/#command] [#value]runway two four[/#value] [#callsign]Oscar Uniform Romeo[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

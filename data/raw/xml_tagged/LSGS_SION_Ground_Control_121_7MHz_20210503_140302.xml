@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.23</start>
+		<end>5.48</end>
+		<speaker>B</speaker>
+		<speaker_label>HBKGO</speaker_label>
+		<text>[#callsign]Hotel Bravo Golf Kilo[/#callsign]   [#command]Echo [/#command] [#value]one four thousand feet[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>5.7</start>
+		<end>8.24</end>
+		<speaker>B</speaker>
+		<speaker_label>HBKGO</speaker_label>
+		<text>[#callsign]Golf Kilo[/#callsign] [#unnamed]thank you[/#unnamed] [#command]continue descend report[/#command] [#value]echo two[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

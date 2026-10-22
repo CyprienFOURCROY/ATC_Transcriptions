@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.03</start>
+		<end>1.56</end>
+		<speaker>B</speaker>
+		<speaker_label>DLH25M</speaker_label>
+		<text>[#callsign]Lufthansa Mike[/#callsign] [#unnamed]which parking[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>1.89</start>
+		<end>8.34</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>[#callsign]Lufthansa Mike[/#callsign] [#command]continue[/#command] [#value]for[/#value] what [hes] [#value]two zero meters[/#value] and then [#unnamed]will be first a yellow light[/#unnamed] [#value]to the right[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

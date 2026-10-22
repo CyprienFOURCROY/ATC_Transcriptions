@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.12</start>
+		<end>2.5</end>
+		<speaker>B</speaker>
+		<speaker_label>HBKBV</speaker_label>
+		<text>[#unnamed]Bern Approach[/#unnamed] [#callsign]Hotel Bravo Kilo Bravo Victor[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>2.54</start>
+		<end>3.9</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#callsign][hes] Kilo Bravo Victor[/#callsign] [#unnamed]Bern[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

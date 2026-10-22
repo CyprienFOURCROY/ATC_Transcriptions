@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>14.51</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Hotel Bravo Kilo Golf November[/#callsign] [#unnamed]Berne tower hello QNH[/#unnamed] [#value]one zero two seven[/#value] [#command]enter via[/#command] [#value]route zulu runway three two[/#value] [#unnamed]in use traffic Rega helicopter[/#unnamed] [hes] just [hes] [#value]abeam Gerzensee[/#value] [#command]leaving[/#command] [#value]direction Thun[/#value] [#command]indicating[/#command] [#value]four thousand five hundred feet[/#value] [#unnamed]not verified oposite[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

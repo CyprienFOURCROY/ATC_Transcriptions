@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>9</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO approach</speaker_label>
+		<text>[#callsign]Riga Quebec Lima[/#callsign] [#unnamed]traffic single engine at[/#unnamed]    [#value]your ten o'clock position[/#value]  [#value]four miles[/#value] [#unnamed]crossing from left to right at[/#unnamed] [#value]five thousand five hundred feet[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

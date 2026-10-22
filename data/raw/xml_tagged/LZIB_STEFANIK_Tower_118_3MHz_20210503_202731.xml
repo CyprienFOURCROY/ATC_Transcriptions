@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>8.64</end>
+		<speaker>B</speaker>
+		<speaker_label>OMELE</speaker_label>
+		<text>[#unnamed]Stefanik tower[/#unnamed] [#callsign]Oscar Mike Echo Lima Echo[/#callsign] [#unnamed]altitude[/#unnamed] [#value]six thousand feet[/#value] and [#command]descending to[/#command] [#value]two thousand feet[/#value] [hes]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>9.08</start>
+		<end>21.1</end>
+		<speaker>B</speaker>
+		<speaker_label>OMELE</speaker_label>
+		<text>[#unnamed]we would be[/#unnamed]   [#value]at about Victor[/#value]    [#value]in [hes] fourty seconds[/#value] and [hes] [#command]requesting[/#command] [#value]approach information[/#value] [#unnamed]information quebec QNH[/#unnamed] [#value]one zero two zero[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

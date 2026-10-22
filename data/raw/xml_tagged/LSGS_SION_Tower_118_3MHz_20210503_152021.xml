@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.19</start>
+		<end>2.52</end>
+		<speaker>B</speaker>
+		<speaker_label>FCK511</speaker_label>
+		<text>[hes] [#unnamed]next is[/#unnamed] [#value]bravo[/#value] [#callsign]Nav Checker Five One One[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>2.71</start>
+		<end>6.9</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Nav Checker Five One One[/#callsign] [#unnamed]roger QNH[/#unnamed] [#value]one zero one seven[/#value] [#command]reported in and go[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.15</start>
+		<end>4.26</end>
+		<speaker>B</speaker>
+		<speaker_label>RAM352</speaker_label>
+		<text>[#unnamed]Ground hello[/#unnamed] [#callsign]Royalair Maroc Three Five Two[/#callsign] [#value]stand echo four six[/#value] [#command]fully ready[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

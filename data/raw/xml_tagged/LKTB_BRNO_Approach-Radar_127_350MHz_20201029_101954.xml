@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>5.87</end>
+		<speaker>B</speaker>
+		<speaker_label>UNK-1</speaker_label>
+		<text>[#callsign]Sierra Papa Foxtrot Lima Foxtrot[/#callsign] [#command]contact[/#command] [#unnamed]Wien Radar[/#unnamed] [#value]one two five decimal one seven five[/#value] [#unnamed]good bye[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

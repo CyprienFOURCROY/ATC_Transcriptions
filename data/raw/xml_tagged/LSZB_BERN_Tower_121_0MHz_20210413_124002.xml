@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.16</start>
+		<end>6.57</end>
+		<speaker>B</speaker>
+		<speaker_label>HBKGO</speaker_label>
+		<text>[#command]takeoff[/#command] [#callsign]Golf Oscar[/#callsign] [#command]upwind[/#command] [#value]two thousand one hundred feet[/#value] [#command]request[/#command]   [#value]left hand circuit[/#value]   [#value]runway zero six[/#value] for another and last [#command]touch and go[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>7.08</start>
+		<end>10.48</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Hotel Golf Oscar[/#callsign] [#command]make[/#command] [#value]left hand circuit[/#value] [#command]is approved[/#command] [#value]runway one four[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

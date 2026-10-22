@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.06</start>
+		<end>4.54</end>
+		<speaker>B</speaker>
+		<speaker_label>FCK511</speaker_label>
+		<text>[#callsign]Nav Checker Five One  One [/#callsign] [#command]reporting[/#command] [#value]one thousand  [hes]  ten   thousand feet[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>5.13</start>
+		<end>12.31</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>[#unnamed]thank you[/#unnamed] [#callsign]Nav Checker Five One One[/#callsign] you can [#command]contact[/#command] [hes]  [#value]Geneva Delta[/#value]         [#value]on frequency one one nine decimal one seven five[/#value]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

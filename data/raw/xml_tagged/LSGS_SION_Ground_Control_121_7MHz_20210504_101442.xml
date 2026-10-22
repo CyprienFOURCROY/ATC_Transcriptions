@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>5.75</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>[#callsign]Nav Checker Five One One[/#callsign] [#command]contact[/#command] [hes] [#unnamed]Sion approach[/#unnamed] [#value]one two six decimal eight two five[/#value] [#unnamed]talk to you later[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>6.28</start>
+		<end>9.88</end>
+		<speaker>B</speaker>
+		<speaker_label>FCK511</speaker_label>
+		<text>[#value]one two six eight two five[/#value] [#unnamed]talk to you later[/#unnamed] [#callsign]Nav Checker Five One One[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

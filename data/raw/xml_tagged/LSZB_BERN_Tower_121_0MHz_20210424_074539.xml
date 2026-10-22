@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>7.98</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Hotel Golf November[/#callsign] [#unnamed]Zimi[/#unnamed] is [#command]not available[/#command] anymore [#value]romeo eight two[/#value] is [#command]now active[/#command] [hes] do you [#unnamed]want to proceed to Sava[/#unnamed] instead</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

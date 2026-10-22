@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0</start>
+		<end>8.39</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO tower</speaker_label>
+		<text>[#callsign]Hotel Golf Papa[/#callsign] [#unnamed]number two number one is the company on now left hand base[/#unnamed] and [#unnamed]still two helicopters low altitude over the city[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>8.51</start>
+		<end>13.87</end>
+		<speaker>B</speaker>
+		<speaker_label>HGP</speaker_label>
+		<text>[#command]looking up for[/#command] [#value]helicopter[/#value] and [#unnamed]number one not in sight at the moment and a number two[/#unnamed] [#callsign]Papa Golf Papa[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

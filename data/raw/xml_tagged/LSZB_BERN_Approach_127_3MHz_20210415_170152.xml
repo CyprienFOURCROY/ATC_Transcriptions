@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.13</start>
+		<end>7.98</end>
+		<speaker>D</speaker>
+		<speaker_label>UNK-1</speaker_label>
+		<text>[#callsign]Oscar Oscar Papa Charlie Kilo[/#callsign] it's for [#unnamed]IFR fly to[/#unnamed] [#value]echo bravo charlie india[/#value] we have [#unnamed]information delta[/#unnamed] it is for [#command]startup and IFR clearance[/#command]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>

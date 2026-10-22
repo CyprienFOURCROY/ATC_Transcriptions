@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<segment>
+		<start>0.07</start>
+		<end>2.52</end>
+		<speaker>B</speaker>
+		<speaker_label>SUI528</speaker_label>
+		<text>[#command]passing[/#command] [#value]one three thousand seven  eight[/#value] [hes] [#callsign]Five Two Eight[/#callsign]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>3.09</start>
+		<end>7.37</end>
+		<speaker>A</speaker>
+		<speaker_label>ATCO Ground</speaker_label>
+		<text>[#callsign]Swiss Air Force Five Two Eight [/#callsign] [#command] contact[/#command] [#unnamed]Swiss Radar [/#unnamed] [#value]one two four decimal two two five[/#value] [#unnamed]good bye[/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+	<segment>
+		<start>7.85</start>
+		<end>11.37</end>
+		<speaker>B</speaker>
+		<speaker_label>SUI528</speaker_label>
+		<text>[#value]one two four two two five[/#value] [#callsign] Air Force Five Two Eight [/#callsign]  [hes] [#unnamed][NE-French]aurevoir[/NE][/#unnamed]</text>
+		<tags>
+			<correct>0</correct>
+			<correct_transcript>1</correct_transcript>
+			<correct_tagging>0</correct_tagging>
+			<non_english>0</non_english>
+		</tags>
+	</segment>
+</data>
